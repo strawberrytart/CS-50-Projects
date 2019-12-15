@@ -1,0 +1,231 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>Product example · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/product/">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=FZjh-BibBWmFVOcr2jtUGjM0jMaF1vslKwtmtHhmezpMy0HTn7UeWtY4fo28E7JOY4sTsONrtNZ4b5FpoC7kJJQGngjCQdAMWCTqhxnCGJg" charset="UTF-8"></script><style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .map-container{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+        }
+        .map-container iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+    <link href="dark-mode-switch-master/dark-mode.css" rel="stylesheet">
+
+  </head>
+  <body>
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+          <a class="navbar-brand" href="index.html">
+                  <img src='images/LSM Logo.png' width='80' />
+          </a>
+          <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="navbar-collapse collapse" id="navbarsExample04">
+            <ul class="navbar-nav d-flex justify-content-around w-100">
+              <li class="nav-item">
+                <a class="nav-link" href="speck.html">SPECK <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="okm.html">OKM</a>
+              </li>
+              <li class="nav-item active">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <div class="custom-control custom-switch">
+                  <input type="checkbox" class="custom-control-input" id="darkSwitch">
+                  <label class="custom-control-label" for="darkSwitch">Dark Swtich 🌓 </label>
+              </div>
+            </ul>
+            
+          </div>
+      </nav>
+
+
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Have a question? </h1>
+        <p class="lead">Feel free to drop us an enquiry below.</p>
+      </div>
+    </div>
+
+    <form class="needs-validation container" novalidate>
+      <div class="form-row">
+        <div class="form-group col">
+          <input type="text" class="form-control" placeholder="First name"> 
+        </div>
+        <div class="form-group col">
+            <input type="text" class="form-control" placeholder="Last name">
+        </div>
+      </div>
+
+      <div class="form-row">
+          <div class="form-group col">
+            <input type="email" class="form-control" id="Email" placeholder="Email"> 
+          </div>
+          <div class="form-group col">
+              <input type="number" class="form-control" id="Phone Number" placeholder="Phone Number">
+          </div>
+        </div>
+
+      <div class="form-group">
+          <label for="inputAddress">Company Name</label>
+          <input type="text" class="form-control" id="inputCompanyName" placeholder="Some random company">
+      </div>
+
+      <div class="form-group">
+          <label for="Enquiry">Enquiry</label>
+          <textarea class="form-control" id="Enquiry" rows="5"></textarea>
+      </div>
+
+      <div class="form-group">
+          <label for="exampleFormControlSelect1">Category</label>
+          <select class="custom-select">
+              <option selected>Select a product category</option>
+              <option value="1">SPECK PUMPS</option>
+              <option value="2">OKM</option>
+              <option value="3">SWECO</option>
+              <option value="4">MACKCHAIN</option>
+              <option value="5">MEIDINGER</option>
+              <option value="6">YASIKI</option>
+              <option value="7">Forbes Marshall</option>
+              <option value="8">General</option>
+            </select>
+        </div>
+
+      <div class="form-group">
+          <label for="exampleFormControlFile1">Have an image to attach?</label>
+          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+
+      <div class="custom-control custom-checkbox mb-4">
+          <input type="checkbox" class="custom-control-input" id="customCheck1">
+          <label class="custom-control-label" for="customCheck1">Check this custom checkbox</label>
+      </div>
+
+      <div class="mb-4">
+          <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+    <div class="container">
+      <div class="row mb-3 kluang-office bg-light py-3">
+        <div class="col-md-6 order-md-2">
+            <img src="images/Building2.png" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6 order-md-1">
+          <strong>Leesonmech Engineering (M) Sdn. Bhd.</strong>
+          <hr>
+          18, Jalan 18, Taman Sri Kluang, 86000, Kluang, Johor. <br>
+          07-7771055 <br>
+          sales@leesonmech.com<br>
+          <div class="row">
+            <div class="col-md-6">
+                Monday-Friday<br>
+                Saturday 
+            </div>
+            <div class="col">
+                8.30am-6.00pm <br>
+                8.30am-1.00pm
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-3 kl-campus">
+          <div class="col-md-6 order-md-2">
+              <img src="images/building-subang.png" class="img-fluid rounded">
+          </div>
+          <div class="col-md-6 order-md-1">
+            <strong>Leesonmech Engineering (KL) Sdn. Bhd.</strong>
+            <hr>
+            2A, Jalan TP 3, Taman Perindustrian Sime UEP, 47600 Subang Jaya, Selangor <br>
+            03-80818055 <br>
+            sales@leesonmech.com<br>
+            <div class="row">
+              <div class="col">
+                  Monday-Friday<br>
+              </div>
+              <div class="col">
+                  8.30am-6.00pm <br>
+              </div>
+            </div>
+          </div>
+
+  
+      </div>
+
+
+      <div class="row mb-3 sg-campus bg-light py-3">
+          <div class="col-md-6 order-md-2">
+              <img src="images/building-singapore.png" class="img-fluid rounded">
+          </div>
+          <div class="col-md-6 order-md-1">
+              <strong>Leesonmech (S) Pte. Ltd.</strong>
+            <hr>
+            48 Toh Guan Rd E, #05-141, Singapore 608586<br>
+            +65 62655985 <br>
+            sales@leesonmech.com<br>
+            <div class="row">
+              <div class="col">
+                  Monday-Friday<br>
+              </div>
+              <div class="col">
+                  8.30am-6.00pm <br>
+              </div>
+            </div>
+          </div>
+  
+      </div>
+
+
+    </div>
+
+    
+
+   
+
+ 
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="dark-mode-switch-master/dark-mode-switch.min.js"></script>
+</body>
+</html>
