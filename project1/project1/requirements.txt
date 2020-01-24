@@ -1,5 +1,6 @@
 astroid==2.3.3
 certifi==2019.11.28
+cffi==1.13.2
 chardet==3.0.4
 Click==7.0
 colorama==0.4.3
@@ -7,6 +8,9 @@ cycler==0.10.0
 Flask==1.1.1
 Flask-Session==0.3.1
 Flask-SQLAlchemy==2.4.1
+gevent==1.4.0
+gevent-websocket==0.10.1
+greenlet==0.4.15
 gunicorn==20.0.4
 idna==2.8
 isort==4.3.21
@@ -20,6 +24,7 @@ mccabe==0.6.1
 numpy==1.17.2
 psycopg2==2.8.4
 psycopg2-binary==2.8.4
+pycparser==2.19
 pylint==2.4.4
 pyparsing==2.4.2
 python-dateutil==2.8.0
